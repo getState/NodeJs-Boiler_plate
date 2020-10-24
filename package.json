@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-boiler_plate",
+  "version": "1.0.0",
+  "description": "NodeJs-Boiler_plate",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getState/NodeJs-Boiler_plate.git"
+  },
+  "author": "Ahn SJ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/getState/NodeJs-Boiler_plate/issues"
+  },
+  "homepage": "https://github.com/getState/NodeJs-Boiler_plate#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
