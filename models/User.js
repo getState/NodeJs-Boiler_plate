@@ -10,6 +10,10 @@ const userSchema = mongoose.Schema({
         trim: true,
         unique: 1,  //겹치는게 없음
     },
+    password:{
+        type:String,
+        minlength:5,
+    },
     lastname: {
         type: String,
         maxlength:50,
